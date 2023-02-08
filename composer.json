@@ -1,0 +1,16 @@
+{
+    "name": "mehmetcoban/product-feed",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MehmetCoban\\ProductFeed\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehmet Çoban",
+            "email": "mehmetcoban8489@gmail.com"
+        }
+    ],
+    "require": {}
+}
