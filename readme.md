@@ -23,11 +23,11 @@ Url = http://mehmet-challenge.test
 ```
 
 ```php
-curl --location --request GET '{url}/product/google' \
+curl --location --request GET '{url}/product' \
 --header 'Accept: application/xml'
 ```
 
 ```php
-curl --location --request GET '{url}/product/google' \
+curl --location --request GET '{url}/product' \
 --header 'Accept: application/json'
 ```

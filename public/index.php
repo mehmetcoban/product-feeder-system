@@ -10,7 +10,7 @@ $request = Request::capture();
 switch ($request->getMethod()) {
     case 'GET':
         switch ($request->request_uri) {
-            case 'product':
+            case 'product': // or 'product/google'
                 echo (new ProductFeedController())->index($request, 'google')->getData();
 
             //or you can use other providers added in FeederFactory
